@@ -1,3 +1,9 @@
+sourceControl {
+    gitRepository(new URI("https://github.com/HarvelsX/eco.git")) {
+        producesModule("com.willfp:eco-api")
+    }
+}
+
 rootProject.name = 'EcoCrates'
 
 // Core
